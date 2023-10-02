@@ -38,3 +38,12 @@ function fillDataInCard(cardClone,article){
         window.open(article.url,'_blank');
     })
 }
+
+let currentSelectedNav = null;
+function onNavItemClick(id){
+    fetchNews(id);
+    const navItem= document.getElementById(id);
+    currentSelectedNav?.classList.remove('active');
+    currentSelectedNav=navItem;
+    currentSelectedNav.classList.add('active');
+}

@@ -75,6 +75,9 @@ nav{
     color: red;
 }
 
+.nav-item.active{
+    color: rgb(0, 140, 255);
+}
 .search-bar{
     height: 32px;
     gap: 8px;
