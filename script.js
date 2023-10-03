@@ -8,6 +8,9 @@ async function fetchNews (query){
     bindData(data.articles); 
 }
 
+function reload(){
+    window.location.reload();
+}
 function bindData(articles){
     const cardContainer = document.getElementById("card-container");
     const newsCardTemplate =document.getElementById("template-news-card");
