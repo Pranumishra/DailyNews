@@ -47,3 +47,15 @@ function onNavItemClick(id){
     currentSelectedNav=navItem;
     currentSelectedNav.classList.add('active');
 }
+const searchButton = document.getElementById('search-button');
+const searchText = document.getElementById('news-input');
+searchButton.addEventListener('click',()=>{
+    const query =searchText.value;
+    if(!query) return;
+    fetchNews(query);
+    currentSelectedNav?.classList.remove('active');
+    currentSelectedNav = null;
+    
+    searchText.value="";
+    searchText.Placeholder="e.g. current affairs";
+})
