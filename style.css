@@ -81,6 +81,7 @@ nav{
 .search-bar{
     height: 32px;
     gap: 8px;
+    margin-right: 1px;
 }
 
 .news-input{
@@ -109,6 +110,11 @@ nav{
     background-color: rgb(0, 94, 171);
 }
 
+.nav-toggle{
+    margin-right:30px;
+    display: none;
+}
+
 /* navigation bar code completed */
 
 
@@ -118,14 +124,14 @@ main{
 }
 
 .card-container{
-    justify-content: space-between;
     flex-wrap: wrap;
+    column-gap: 20px;
     row-gap: 20px;
     align-items: start;
 }
 
 .card{
-    width: 360px;
+    width: 32%;
     max-height: 400px;
     box-shadow: 0 0 4px #d4ecff;
     cursor: pointer;

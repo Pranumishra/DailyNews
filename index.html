@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+
 </head>
 <body>
     <nav>
@@ -12,6 +14,7 @@
             <a href="#" onclick="reload()" class="company-logo">
                 <img src="./assets/Logo.png" alt="logo">
             </a>
+            
             <div class="nav-links">
                 <ul class="flex">
                     <li class="hover-link nav-item" id="Cricket" onclick="onNavItemClick('Cricket')">Cricket</li>
@@ -24,14 +27,21 @@
                 <input type="text" class="news-input" id="news-input" placeholder="e.g. Current Affairs">
                 <button class="search-button" id="search-button">Search</button>
             </div>
+
+            
+            <a href="#" class="nav-toggle hover-link">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            
         </div>
 
-        
+   
     </nav>
 
     <main>
         <div class="card-container container flex" id="card-container">
         
+            </div>
         </div>
     </main>
     <template id="template-news-card">    

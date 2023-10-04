@@ -1,0 +1,72 @@
+@media  screen and (max-width: 1017px) {
+    .nav-toggle{
+        display: block;
+    }
+
+    .company-logo{
+        margin-left: 20px;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+
+
+    .nav-links{
+       display: none;
+    }
+    .search-bar{
+        position: relative;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .card{
+        width:350px;
+        row-gap: 0px;
+        column-gap: 0px;
+        
+    }
+    .card-header{
+        height: 150px;
+        width: 380px;
+    }
+    .card-content{
+        margin-top: 15px;
+    }
+    .card-container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:737px) {
+    .card{
+        width:300px;
+        row-gap: 0px;
+        column-gap: 0px;
+        
+    }
+    .card-header{
+        height: 150px;
+        width: 380px;
+    }
+    .card-content{
+        margin-top: 15px;
+    }
+    
+    .news-input{
+        font-family: "Poppins",sans-serif;
+        width: 150px;
+        height: 75%;
+        padding-inline: 12px;
+        border-radius: 5px;
+        border: solid black;
+        
+    }
+    
+    .search-button{
+        padding: 2px 10px;
+       
+    }
+    
+    
+    
+}
